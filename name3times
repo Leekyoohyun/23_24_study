@@ -1,0 +1,6 @@
+#FirstPython.py
+
+firstname=input("What is your firstname?")
+surname=input("What is your surname?")
+print("Hello,", firstname, surname)
+      
