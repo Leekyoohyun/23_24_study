@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    printf("how to save in github\n");
+    printf("to save in github\n");
     return 0;
 }
