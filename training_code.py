@@ -54,7 +54,7 @@ targets_list = [0.01,0.99]
 #train
 i = 0
 
-while i<10000:
+while i<10000: #훈련시키는거 수정하면 결과 값이 향상된다.
   n.train(inputs_list,targets_list)
   i += 1
 
