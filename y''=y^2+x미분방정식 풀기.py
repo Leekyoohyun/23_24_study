@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 g=9.8
-Nt=1000
+Nt=1000  #바뀜
 xList=np.empty(Nt,float)
 yList=np.empty(Nt,float)
 zList=np.empty(Nt,float)
@@ -19,4 +19,3 @@ for n in range(Nt-1):
 plt.plot(xList,yList)
 plt.show()
 
-#dfgdfgdf
