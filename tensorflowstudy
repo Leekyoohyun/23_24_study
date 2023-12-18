@@ -12,3 +12,6 @@ outputs=Dense(units=1, activation='sigmoid')(hidden1)
 
 model=Model(inputs,outputs)
 model.compile(optimizer=tf.keras.optimizers.SGD(learning_rate=0.1),loss='mse')
+history=model.fit(x,y,epochs=3000,batch_size=1)
+model.summary()
+print(model.predict(x))
