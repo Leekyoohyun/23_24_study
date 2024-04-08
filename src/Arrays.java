@@ -2,7 +2,7 @@ public class Arrays {
     public static void main(String[] args){
         int[] foo = new int[5];
         System.out.println("(1):  "+foo.length);     // (1)
-
+        System.out.println("(4):  "+foo.length);
         double[] squares;       // Declaration
         squares = new double[100];      // Creation
         for (int i=0; i<squares.length; i++){
