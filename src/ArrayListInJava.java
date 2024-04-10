@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -39,5 +40,21 @@ public class ArrayListInJava {
 
         System.out.println("Get :"+numbers2.get(2));
         System.out.println("데이터 크기(size) :"+numbers2.size());
+
+        System.out.println("-------------------------------");
+
+        ArrayList<String> practice = new ArrayList<>();
+        practice.add("고유림");
+        practice.add("송현진");
+        practice.add("최동연");
+        practice.add("김동은");
+        System.out.println("수정 전 :"+practice);
+
+        practice.add(2, "최동현");
+        practice.remove(3);
+        System.out.println("수정 후 :"+ practice);
+
+
+
     }
 }

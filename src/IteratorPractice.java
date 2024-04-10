@@ -20,5 +20,12 @@ public class IteratorPractice {
         }
         System.out.println(numbers);
 
+        System.out.print("for");
+        for(int i=0; i<numbers.size(); i++){
+            System.out.println(numbers.get(i));
+        }
+
     }
+
+
 }
