@@ -21,5 +21,23 @@ public class ArrayListInJava {
         numbers.remove(4);
         System.out.println("remove(값) ");
         System.out.println(numbers);
+
+        System.out.println("-----------------------");
+
+        ArrayList<Integer> numbers2 = new ArrayList<>();
+        numbers2.add(100);
+        numbers2.add(200);
+        numbers2.add(500);
+        numbers2.add(400);
+        System.out.println("arraylist 생성 :"+numbers2);
+
+        numbers2.add(2, 300);
+        System.out.println("arraylist에 추가 :"+numbers2);
+
+        numbers2.remove(3);
+        System.out.println("arraylist index 3번 삭제: "+ numbers2);
+
+        System.out.println("Get :"+numbers2.get(2));
+        System.out.println("데이터 크기(size) :"+numbers2.size());
     }
 }
