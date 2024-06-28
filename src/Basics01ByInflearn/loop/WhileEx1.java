@@ -1,4 +1,4 @@
-package ClassJune.loop;
+package Basics01ByInflearn.loop;
 
 public class WhileEx1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ClassJune;
+package Basics01ByInflearn.Basics;
 import java.util.Scanner;
 public class ScoreEx {
     public static void main(String[] args) {

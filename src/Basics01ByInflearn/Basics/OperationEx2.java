@@ -1,4 +1,4 @@
-package ClassJune;
+package Basics01ByInflearn.Basics;
 
 public class OperationEx2 {
     public static void main(String[] args) {

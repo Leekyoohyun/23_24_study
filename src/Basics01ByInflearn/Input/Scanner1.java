@@ -1,4 +1,4 @@
-package ClassJune.Input;
+package Basics01ByInflearn.Input;
 import java.util.Scanner;
 
 public class Scanner1 {

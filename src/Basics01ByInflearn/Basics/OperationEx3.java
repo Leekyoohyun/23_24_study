@@ -1,4 +1,4 @@
-package ClassJune;
+package Basics01ByInflearn.Basics;
 
 public class OperationEx3 {
     // 합격범위 예제
