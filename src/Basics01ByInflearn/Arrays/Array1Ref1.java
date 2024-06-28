@@ -21,5 +21,6 @@ public class Array1Ref1 {
 
         //참조값 확인
         System.out.println(students); //[I@7f690630
+        // int[] students 라는 변수에 참조값([I@7f690630)를 보관해둔것임. 주소값이라고 생각 ㄱㄱ
     }
 }
