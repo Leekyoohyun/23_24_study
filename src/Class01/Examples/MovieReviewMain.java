@@ -1,6 +1,6 @@
 package Class01.Examples;
 
-public class MoviewReviewMain {
+public class MovieReviewMain {
     public static void main(String[] args) {
         MovieReview m1 = new MovieReview();
         m1.title = "인셉션";

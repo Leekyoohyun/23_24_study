@@ -1,6 +1,6 @@
 package Class01.Examples;
 
-public class MovewReviewMain2 { // 배열 도입
+public class MovieReviewMain2 { // 배열 도입
     public static void main(String[] args) {
         MovieReview[] movieReviews = new MovieReview[2];
 
