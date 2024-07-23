@@ -1,0 +1,17 @@
+team: Leopards
+
+manager: Kim
+
+<<<<<<< HEAD
+coach: Nicholas
+=======
+coach: Melissa
+>>>>>>> 7f950af (Edit leopards)
+
+members:
+- Linda
+- William
+- David
+- Olivia
+- Dongho
+- Kyoo
